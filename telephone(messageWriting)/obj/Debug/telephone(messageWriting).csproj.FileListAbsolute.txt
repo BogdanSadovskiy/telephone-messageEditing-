@@ -8,3 +8,13 @@ C:\Users\student\source\repos\telephone(messageWriting)\telephone(messageWriting
 C:\Users\student\source\repos\telephone(messageWriting)\telephone(messageWriting)\obj\Debug\telephone(messageWriting).csproj.CoreCompileInputs.cache
 C:\Users\student\source\repos\telephone(messageWriting)\telephone(messageWriting)\obj\Debug\telephone(messageWriting).exe
 C:\Users\student\source\repos\telephone(messageWriting)\telephone(messageWriting)\obj\Debug\telephone(messageWriting).pdb
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\telephone(messageWriting).exe.config
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\telephone(messageWriting).exe
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\telephone(messageWriting).pdb
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).csproj.AssemblyReference.cache
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone_messageWriting_.Form1.resources
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone_messageWriting_.Properties.Resources.resources
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).csproj.GenerateResource.cache
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).csproj.CoreCompileInputs.cache
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).exe
+C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).pdb

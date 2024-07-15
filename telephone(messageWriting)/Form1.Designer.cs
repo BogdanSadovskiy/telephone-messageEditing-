@@ -71,6 +71,7 @@
             this.DownButton.Size = new System.Drawing.Size(27, 27);
             this.DownButton.TabIndex = 2;
             this.DownButton.UseVisualStyleBackColor = true;
+            this.DownButton.Text = "\u2193";
             // 
             // RightButton
             // 
@@ -79,6 +80,7 @@
             this.RightButton.Size = new System.Drawing.Size(27, 27);
             this.RightButton.TabIndex = 3;
             this.RightButton.UseVisualStyleBackColor = true;
+            this.RightButton.Text = "\u2192"; 
             // 
             // LeftButton
             // 
@@ -87,6 +89,7 @@
             this.LeftButton.Size = new System.Drawing.Size(27, 27);
             this.LeftButton.TabIndex = 4;
             this.LeftButton.UseVisualStyleBackColor = true;
+            this.LeftButton.Text = "\u2190";
             // 
             // OneButton
             // 
@@ -103,7 +106,7 @@
             this.TwoButton.Name = "TwoButton";
             this.TwoButton.Size = new System.Drawing.Size(48, 48);
             this.TwoButton.TabIndex = 6;
-            this.TwoButton.Text = "2";
+            this.TwoButton.Text = "2\nABC";
             this.TwoButton.UseVisualStyleBackColor = true;
             // 
             // ThreeButton
@@ -112,7 +115,7 @@
             this.ThreeButton.Name = "ThreeButton";
             this.ThreeButton.Size = new System.Drawing.Size(48, 48);
             this.ThreeButton.TabIndex = 7;
-            this.ThreeButton.Text = "3";
+            this.ThreeButton.Text = "3\nDEF";
             this.ThreeButton.UseVisualStyleBackColor = true;
             // 
             // SixButton
@@ -121,7 +124,7 @@
             this.SixButton.Name = "SixButton";
             this.SixButton.Size = new System.Drawing.Size(48, 48);
             this.SixButton.TabIndex = 10;
-            this.SixButton.Text = "6";
+            this.SixButton.Text = "6\nMNO";
             this.SixButton.UseVisualStyleBackColor = true;
             // 
             // FiveButton
@@ -130,7 +133,7 @@
             this.FiveButton.Name = "FiveButton";
             this.FiveButton.Size = new System.Drawing.Size(48, 48);
             this.FiveButton.TabIndex = 9;
-            this.FiveButton.Text = "5";
+            this.FiveButton.Text = "5\nJKL";
             this.FiveButton.UseVisualStyleBackColor = true;
             // 
             // FourButton
@@ -139,7 +142,7 @@
             this.FourButton.Name = "FourButton";
             this.FourButton.Size = new System.Drawing.Size(48, 48);
             this.FourButton.TabIndex = 8;
-            this.FourButton.Text = "4";
+            this.FourButton.Text = "4\nGHI";
             this.FourButton.UseVisualStyleBackColor = true;
             // 
             // NineButton
@@ -148,7 +151,7 @@
             this.NineButton.Name = "NineButton";
             this.NineButton.Size = new System.Drawing.Size(48, 48);
             this.NineButton.TabIndex = 13;
-            this.NineButton.Text = "9";
+            this.NineButton.Text = "9\nWXYZ";
             this.NineButton.UseVisualStyleBackColor = true;
             // 
             // EightButton
@@ -157,7 +160,7 @@
             this.EightButton.Name = "EightButton";
             this.EightButton.Size = new System.Drawing.Size(48, 48);
             this.EightButton.TabIndex = 12;
-            this.EightButton.Text = "8";
+            this.EightButton.Text = "8\nTUV";
             this.EightButton.UseVisualStyleBackColor = true;
             // 
             // SevenButton
@@ -166,7 +169,7 @@
             this.SevenButton.Name = "SevenButton";
             this.SevenButton.Size = new System.Drawing.Size(48, 48);
             this.SevenButton.TabIndex = 11;
-            this.SevenButton.Text = "7";
+            this.SevenButton.Text = "7\nPQRS";
             this.SevenButton.UseVisualStyleBackColor = true;
             // 
             // HashButton
@@ -184,7 +187,7 @@
             this.ZeroButton.Name = "ZeroButton";
             this.ZeroButton.Size = new System.Drawing.Size(48, 48);
             this.ZeroButton.TabIndex = 15;
-            this.ZeroButton.Text = "0";
+            this.ZeroButton.Text = "0\n_";
             this.ZeroButton.UseVisualStyleBackColor = true;
             // 
             // StarButton
