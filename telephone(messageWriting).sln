@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telephone(messageWriting)", "telephone(messageWriting)\telephone(messageWriting).csproj", "{73A42ECE-9A04-4C3A-A703-F1035177778B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6} = {C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsLibrary", "WordsLibrary\WordsLibrary.csproj", "{C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{73A42ECE-9A04-4C3A-A703-F1035177778B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A42ECE-9A04-4C3A-A703-F1035177778B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A42ECE-9A04-4C3A-A703-F1035177778B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92D8CB4-F2EB-4E66-8E7F-1D1E6E1754F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

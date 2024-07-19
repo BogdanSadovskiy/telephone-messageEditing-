@@ -18,3 +18,8 @@ C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(message
 C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).csproj.CoreCompileInputs.cache
 C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).exe
 C:\Users\HighestInARoom\Source\Repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephone(messageWriting).pdb
+C:\Users\HighestInARoom\source\repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\WordsLibrary.dll
+C:\Users\HighestInARoom\source\repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\WordsLibrary.pdb
+C:\Users\HighestInARoom\source\repos\telephone-messageEditing-\telephone(messageWriting)\obj\Debug\telephon.96BA3122.Up2Date
+C:\Users\HighestInARoom\source\repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HighestInARoom\source\repos\telephone-messageEditing-\telephone(messageWriting)\bin\Debug\Newtonsoft.Json.xml

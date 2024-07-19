@@ -45,60 +45,65 @@
             this.HashButton = new System.Windows.Forms.Button();
             this.ZeroButton = new System.Windows.Forms.Button();
             this.StarButton = new System.Windows.Forms.Button();
+            this.predictedLabel1 = new System.Windows.Forms.Label();
+            this.predictedLabel3 = new System.Windows.Forms.Label();
+            this.predictedLabel2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TScreen
             // 
-            this.TScreen.Location = new System.Drawing.Point(34, 12);
+            this.TScreen.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.TScreen.Location = new System.Drawing.Point(32, 12);
             this.TScreen.Multiline = true;
             this.TScreen.Name = "TScreen";
-            this.TScreen.Size = new System.Drawing.Size(205, 165);
+            this.TScreen.Size = new System.Drawing.Size(207, 145);
             this.TScreen.TabIndex = 0;
             // 
             // UpButton
             // 
-            this.UpButton.Location = new System.Drawing.Point(121, 189);
+            this.UpButton.Location = new System.Drawing.Point(119, 192);
             this.UpButton.Name = "UpButton";
             this.UpButton.Size = new System.Drawing.Size(27, 27);
             this.UpButton.TabIndex = 1;
+            this.UpButton.Text = "↑";
             this.UpButton.UseVisualStyleBackColor = true;
-            this.UpButton.Text = "\u2191";
             // 
             // DownButton
             // 
-            this.DownButton.Location = new System.Drawing.Point(121, 241);
+            this.DownButton.Location = new System.Drawing.Point(119, 240);
             this.DownButton.Name = "DownButton";
             this.DownButton.Size = new System.Drawing.Size(27, 27);
             this.DownButton.TabIndex = 2;
+            this.DownButton.Text = "↓";
             this.DownButton.UseVisualStyleBackColor = true;
-            this.DownButton.Text = "\u2193";
             // 
             // RightButton
             // 
-            this.RightButton.Location = new System.Drawing.Point(154, 215);
+            this.RightButton.Location = new System.Drawing.Point(144, 216);
             this.RightButton.Name = "RightButton";
             this.RightButton.Size = new System.Drawing.Size(27, 27);
             this.RightButton.TabIndex = 3;
+            this.RightButton.Text = "→";
             this.RightButton.UseVisualStyleBackColor = true;
-            this.RightButton.Text = "\u2192"; 
             // 
             // LeftButton
             // 
-            this.LeftButton.Location = new System.Drawing.Point(88, 215);
+            this.LeftButton.Location = new System.Drawing.Point(94, 216);
             this.LeftButton.Name = "LeftButton";
             this.LeftButton.Size = new System.Drawing.Size(27, 27);
             this.LeftButton.TabIndex = 4;
+            this.LeftButton.Text = "←";
             this.LeftButton.UseVisualStyleBackColor = true;
-            this.LeftButton.Text = "\u2190";
             // 
             // OneButton
             // 
-            this.OneButton.Location = new System.Drawing.Point(34, 288);
+            this.OneButton.Location = new System.Drawing.Point(32, 288);
             this.OneButton.Name = "OneButton";
             this.OneButton.Size = new System.Drawing.Size(48, 48);
             this.OneButton.TabIndex = 5;
             this.OneButton.Text = "1";
             this.OneButton.UseVisualStyleBackColor = true;
+            this.OneButton.Click += new System.EventHandler(this.OneButton_Click);
             // 
             // TwoButton
             // 
@@ -138,7 +143,7 @@
             // 
             // FourButton
             // 
-            this.FourButton.Location = new System.Drawing.Point(34, 356);
+            this.FourButton.Location = new System.Drawing.Point(32, 356);
             this.FourButton.Name = "FourButton";
             this.FourButton.Size = new System.Drawing.Size(48, 48);
             this.FourButton.TabIndex = 8;
@@ -165,7 +170,7 @@
             // 
             // SevenButton
             // 
-            this.SevenButton.Location = new System.Drawing.Point(34, 424);
+            this.SevenButton.Location = new System.Drawing.Point(32, 424);
             this.SevenButton.Name = "SevenButton";
             this.SevenButton.Size = new System.Drawing.Size(48, 48);
             this.SevenButton.TabIndex = 11;
@@ -192,18 +197,48 @@
             // 
             // StarButton
             // 
-            this.StarButton.Location = new System.Drawing.Point(34, 498);
+            this.StarButton.Location = new System.Drawing.Point(32, 498);
             this.StarButton.Name = "StarButton";
             this.StarButton.Size = new System.Drawing.Size(48, 48);
             this.StarButton.TabIndex = 14;
             this.StarButton.Text = "*";
             this.StarButton.UseVisualStyleBackColor = true;
             // 
+            // predictedLabel1
+            // 
+            this.predictedLabel1.Location = new System.Drawing.Point(106, 157);
+            this.predictedLabel1.Name = "predictedLabel1";
+            this.predictedLabel1.Size = new System.Drawing.Size(65, 22);
+            this.predictedLabel1.TabIndex = 17;
+            this.predictedLabel1.Text = "label1";
+            this.predictedLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // predictedLabel3
+            // 
+            this.predictedLabel3.Location = new System.Drawing.Point(174, 157);
+            this.predictedLabel3.Name = "predictedLabel3";
+            this.predictedLabel3.Size = new System.Drawing.Size(65, 22);
+            this.predictedLabel3.TabIndex = 18;
+            this.predictedLabel3.Text = "label3";
+            this.predictedLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // predictedLabel2
+            // 
+            this.predictedLabel2.Location = new System.Drawing.Point(33, 157);
+            this.predictedLabel2.Name = "predictedLabel2";
+            this.predictedLabel2.Size = new System.Drawing.Size(67, 22);
+            this.predictedLabel2.TabIndex = 19;
+            this.predictedLabel2.Text = "label2";
+            this.predictedLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(277, 587);
+            this.Controls.Add(this.predictedLabel2);
+            this.Controls.Add(this.predictedLabel3);
+            this.Controls.Add(this.predictedLabel1);
             this.Controls.Add(this.HashButton);
             this.Controls.Add(this.ZeroButton);
             this.Controls.Add(this.StarButton);
@@ -247,6 +282,9 @@
         private System.Windows.Forms.Button HashButton;
         private System.Windows.Forms.Button ZeroButton;
         private System.Windows.Forms.Button StarButton;
+        private System.Windows.Forms.Label predictedLabel1;
+        private System.Windows.Forms.Label predictedLabel3;
+        private System.Windows.Forms.Label predictedLabel2;
     }
 }
 
